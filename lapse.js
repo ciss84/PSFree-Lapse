@@ -1601,6 +1601,7 @@ async function patch_kernel(kbase, kmem, p_ucred, restore_info) {
     sysi('setuid', 0);
     log('kernel exploit succeeded Todex Test!');
     //setTimeout(load_exploit_done, 500);
+    EndTimer();
 }
 
 // FUNCTIONS FOR STAGE: SETUP

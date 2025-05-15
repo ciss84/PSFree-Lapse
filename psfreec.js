@@ -861,7 +861,7 @@ async function make_arw(reader, view2, pop) {
 }
 
 async function main() {
-    //StartTimer();
+    StartTimer();
     //showMessage("Webkit exploit (PSFree-1.5rc1) Please Wait"),
     log('STAGE: UAF SSV');
     const [fsets, indices] = prepare_uaf();
