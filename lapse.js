@@ -26,7 +26,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.  */
 
 import { Int } from './int64.js';
 import { mem } from './mem.js';
-import { log, die, hex, hexdump } from './utils.js';
+import { clear_log, log, die, hex, hexdump } from './utils.js';
 import { cstr, jstr } from './memtools.js';
 import { page_size, context_size } from './offset.js';
 import { Chain } from './chain.js';
